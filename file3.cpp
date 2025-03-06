@@ -11,9 +11,9 @@ void inputData() {
     //accept nLebar
     cin >> Lebar;
 }
-float hitungLuas() {
+float hitungLuas(float a, float b) {
     //compute nLuas = nPanjang * nLebar
-    return Panjang * Lebar;
+    return a * b;
 }
 void outputData() {
     //display 'Luas persegi panjang = ' + nLuas
